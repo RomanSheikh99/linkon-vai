@@ -10,9 +10,11 @@ body{
 	text-align:center;
 	background: linear-gradient(180deg,
 	#f80112 0%, #2602f5 110%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	cursor:pointer;
 	font-size: 6rem;
-	font-family: 'Aclonica', sans-serif;
+	font-family: bday;
 }
 
 
@@ -22,8 +24,14 @@ body{
 	text-align:center;
 	background: linear-gradient(180deg,
 	#f80112 0%, #2602f5 110%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor:pointer;
 	font-size: 6rem;
-	font-family: 'Poppins', sans-serif;
+}
+
+.name:hover{
+	-webkit-box-reflect: below -8px -webkit-gradient(linear,right top ,right bottom, from(transparent), color-stop(85%,transparent), to(rgba(42,99,99,1)) );
 }
 
 .wrapper{
@@ -95,7 +103,10 @@ body{
 }
 
 
-
+@font-face{
+	font-family:bday;
+	src: url(bday.ttf);
+}
 
 
 
