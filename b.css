@@ -14,7 +14,7 @@ body{
 	-webkit-text-fill-color: transparent;
 	cursor:pointer;
 	font-size: 6rem;
-	font-family: bday;
+	font-family: 'Aclonica', sans-serif;
 }
 
 
@@ -28,6 +28,7 @@ body{
 	-webkit-text-fill-color: transparent;
 	cursor:pointer;
 	font-size: 6rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .name:hover{
