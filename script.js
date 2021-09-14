@@ -23,4 +23,4 @@ setInterval(function () {
     }
     wishes.innerText = wishTxt[num];
     num++;
-}, 4000);
+}, 3000);
