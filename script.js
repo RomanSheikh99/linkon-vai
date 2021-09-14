@@ -1,0 +1,14 @@
+
+let wishes = document.getElementById('wish-text');
+
+let wishTxt = ['Many many happy returns of the day',
+'you are my idol',
+'My inspiration',
+'Thank you for',
+'To give the right advice at all times',
+'For being close like a sibling brother',
+'And to show big dreams',
+'Hope all your dreams come true',
+'always pray for you ',
+'Always be happy and healthy',
+'Love you vaiya']
